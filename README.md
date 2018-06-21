@@ -1,2 +1,8 @@
 # TouchScriptRxExtensions
-Small extension class for using TouchScript gestures as Rx Observables
+
+A small extension class for using TouchScript gestures as Rx Observables
+
+### Prerequisites
+
+* [UniRx]()
+* [TouchScript]()
