@@ -23,6 +23,6 @@ tapGesture.TappedAsObservable().Subscribe(x =>
 
 screenTransformGesture.TransformedAsObservable().Subscribe(x =>
 {
-    transform.position += oneFingerGesture.DeltaPosition;
+    transform.position += screenTransformGesture.DeltaPosition;
 });
 ```
